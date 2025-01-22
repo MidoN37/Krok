@@ -36,7 +36,7 @@ def reformat_questions(input_text):
   return "\n\n".join(reformatted_questions)
 
 
-st.title("By Mehdi Nih, Yours Truely")
+st.title("Made By Mehdi Nih")
 input_text = st.text_area("Input All Questions From Test Center:")
 if st.button("Clean This Mess Up!"):
   output_text = reformat_questions(input_text)
