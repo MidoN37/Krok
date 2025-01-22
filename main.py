@@ -32,8 +32,8 @@ def reformat_questions(input_text):
     
     return "\n\n".join(reformatted_questions)
 
-st.title("Question Formatter")
+st.title("Question Formatter by Mehdi Nih")
 input_text = st.text_area("Input Questions:")
-if st.button("Reformat"):
+if st.button("Click Me To Make Magic"):
     output_text = reformat_questions(input_text)
-    st.text_area("Reformatted Questions:", value=output_text, height=300)
+    st.text_area("Questions ready to bake:", value=output_text, height=300)
